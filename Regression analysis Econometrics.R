@@ -12,7 +12,7 @@ webshot::install_phantomjs()
 
 #Exercise 1
 library(readxl)
-Units <- read_excel("C:/Users/nejde/Desktop/Units.xlsx")
+Units <- read_excel("xlsx-file")
 
 Units_OLS <- lm(value ~ area, data = Units)
 summary(Units_OLS)
